@@ -1,0 +1,22 @@
+.dilip{
+    color:rgb(221, 221, 221);
+    animation: dj 1s infinite;
+
+}
+
+@keyframes dj {
+    0%{
+        transform:rotate(0deg);
+        color:rgb(50, 244, 11);
+    }
+    50%{
+        
+        
+        transform:rotate(360deg);
+        color:rgb(50, 244, 11);
+    }
+    100%{
+
+        transform:rotate(360deg);
+    }
+}
